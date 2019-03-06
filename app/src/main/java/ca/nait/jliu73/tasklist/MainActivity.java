@@ -42,7 +42,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener
 
     public void getHeaderList()
     {
-        Log.d(TAG, "Get List");
+
         headerList = new ArrayList<>(6);
         for(int i = 0; i < 6; i++)
         {
